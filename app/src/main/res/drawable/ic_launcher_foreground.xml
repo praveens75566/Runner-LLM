@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Center 66dp safe zone (21 to 87 in 108 canvas) -->
+    <!-- Neural Chip Outer Frame -->
+    <path
+        android:pathData="M34,34 h40 a4,4 0 0 1 4,4 v40 a4,4 0 0 1 -4,4 h-40 a4,4 0 0 1 -4,-4 v-40 a4,4 0 0 1 4,-4 z"
+        android:fillColor="#00E5FF" />
+    <path
+        android:pathData="M37,37 h34 a2,2 0 0 1 2,2 v34 a2,2 0 0 1 -2,2 h-34 a2,2 0 0 1 -2,-2 v-34 a2,2 0 0 1 2,-2 z"
+        android:fillColor="#0B132B" />
+
+    <!-- Processor Pins -->
+    <path
+        android:pathData="M42,26 v6 M54,26 v6 M66,26 v6 M42,76 v6 M54,76 v6 M66,76 v6 M26,42 h6 M26,54 h6 M26,66 h6 M76,42 h6 M76,54 h6 M76,66 h6"
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round" />
+
+    <!-- Neural Core Nodes & Connections -->
+    <path
+        android:pathData="M46,47 L54,43 L62,47 L54,58 Z"
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="1.5"
+        android:fillColor="#1C2541" />
+    <path
+        android:pathData="M46,47 L54,65 L62,47"
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="1.5" />
+
+    <!-- Core Nodes -->
+    <path
+        android:pathData="M54,43 m-3,0 a3,3 0 1,0 6,0 a3,3 0 1,0 -6,0"
+        android:fillColor="#FF9100" />
+    <path
+        android:pathData="M46,47 m-2.5,0 a2.5,2.5 0 1,0 5,0 a2.5,2.5 0 1,0 -5,0"
+        android:fillColor="#00E5FF" />
+    <path
+        android:pathData="M62,47 m-2.5,0 a2.5,2.5 0 1,0 5,0 a2.5,2.5 0 1,0 -5,0"
+        android:fillColor="#00E5FF" />
+    <path
+        android:pathData="M54,58 m-3.5,0 a3.5,3.5 0 1,0 7,0 a3.5,3.5 0 1,0 -7,0"
+        android:fillColor="#00E5FF" />
+    <path
+        android:pathData="M54,65 m-2,0 a2,2 0 1,0 4,0 a2,2 0 1,0 -4,0"
+        android:fillColor="#FFD166" />
+</vector>
